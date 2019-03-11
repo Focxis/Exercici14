@@ -43,7 +43,7 @@ window.onload = function() {
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "xml/preguntas.xml", true); //cambiar URL al subir al github!!!
+    xhttp.open("GET", "../xml/preguntas.xml", true); //cambiar URL al subir al github!!!
     xhttp.send();
     
     setInterval(actualizarTime,1000);
